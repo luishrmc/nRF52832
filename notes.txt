@@ -1,0 +1,13 @@
+nrfx Drivers and startup - submodule in MCU library: https://github.com/NordicSemiconductor/nrfx - doc https://infocenter.nordicsemi.com/index.jsp?topic=%2Fsdk_nrf5_v17.1.0%2Findex.html - more doc https://docs.nordicsemi.com/bundle/ncs-2.4.0/page/nrfx/index.html#configuration
+
+nrfxlib - https://github.com/nrfconnect/sdk-nrfxlib/tree/main
+
+CLT Tool (nice for flash) - https://www.nordicsemi.com/Products/Development-tools/nrf-util
+
+dfu tutorial - https://github.com/gamnes/nRF52832-buttonless-dfu-development-tutorial
+
+template - https://github.com/dpiegdon/nordic-template https://github.com/kl-cruz/nrfx_playground/tree/master
+
+cmake wrapper - https://github.com/simtind/nrfx-cmake/tree/main
+
+example with cmake - https://github.com/droidecahedron/nrfx_pwm
