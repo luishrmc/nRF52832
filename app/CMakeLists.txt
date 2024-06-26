@@ -15,7 +15,7 @@ target_sources(${EXE_NAME} PRIVATE
     ${PROJECT_SOURCE_DIR}/${NRFX}/soc/nrfx_atomic.c
 
     ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh.c
-    ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh_ble.c
+    # ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh_ble.c
     ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh_soc.c
 )
 

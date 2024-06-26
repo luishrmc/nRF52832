@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libNRF52832_XXAA_HAL.a"
-)

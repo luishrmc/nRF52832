@@ -26,16 +26,12 @@ int main(void)
 {
   nrf_gpio_cfg_output(14);
   nrf_gpio_pin_write(14, 1);
-  uint32_t ret = nrf_gpio_pin_read(14);
   /* Toggle LEDs. */
   while (true)
   {
-    if (nrf_gpio_pin_read(14) == 1)
-      nrf_gpio_pin_write(14, 0);
-    else
-      nrf_gpio_pin_write(14, 1);
-
-    nrf_delay_ms(500);
+    nrf_gpio_pin_write(14, 0);
+    nrf_delay_ms(1000);
+    nrf_gpio_pin_write(14, 1);
   }
 }
 
