@@ -20,6 +20,10 @@ set (RUNTIME_LIBRARY_SYSCALLS_NONE    "")
 set (MFLOAT_ABI_SOFTWARE              "-mfloat-abi=soft")
 set (MFLOAT_ABI_HARDWARE              "-mfloat-abi=hard")
 set (MFLOAT_ABI_MIX                   "-mfloat-abi=softfp")
+set (ENDIANNESS                       "-mlittle-endian")
+set (MEMORY_ALIGNMENT                 "-munaligned-access")
+set (THREAD_LOCAL_STORAGE             "-mtp=soft")
+set (AVOIDING_STD_HEADERS             "-nostdinc")
 set (GARBAGE_COLLECT_SECTIONS         "-ffunction-sections -fdata-sections")
 set (CPP_EXCEPTIONS                   "-fno-exceptions")
 set (CPP_RTTI                         "-fno-rtti")
@@ -27,16 +31,17 @@ set (CPP_ATEXIT                       "-fno-use-cxa-atexit")
 #######################################################################
 
 ###################### VARIABLES ######################################
-set (LINKER_SCRIPT            "STM32F103C8TX.ld")
+set (LINKER_SCRIPT            "mdk/nrf52832_xxaa.ld")
 set (MCPU                     ${MCPU_CORTEX_M4})
 set (MFLOAT_ABI               ${MFLOAT_ABI_HARDWARE})
 set (MFPU                     ${MFPU_FPV4_SP_D16})
 set (RUNTIME_LIBRARY          ${RUNTIME_LIBRARY_REDUCED_C})
 set (RUNTIME_LIBRARY_SYSCALLS ${RUNTIME_LIBRARY_SYSCALLS_MINIMAL})
+set (NORDIC_FLAGS             "${ENDIANNESS} ${MEMORY_ALIGNMENT} ${THREAD_LOCAL_STORAGE}")
 #######################################################################
 
-set(CMAKE_C_FLAGS "${MCPU} -std=gnu11 -mthumb ${MFPU} ${MFLOAT_ABI} ${GARBAGE_COLLECT_SECTIONS}")
-set(CMAKE_CXX_FLAGS "${MCPU} -std=gnu++14 -mthumb ${MFPU} ${MFLOAT_ABI} ${GARBAGE_COLLECT_SECTIONS} ${CPP_EXCEPTIONS} ${CPP_RTTI} ${CPP_ATEXIT}")
+set(CMAKE_C_FLAGS "${MCPU} -std=gnu11 -mthumb ${MFPU} ${MFLOAT_ABI} ${GARBAGE_COLLECT_SECTIONS} ${NORDIC_FLAGS}")
+set(CMAKE_CXX_FLAGS "${MCPU} -std=gnu++14 -mthumb ${MFPU} ${MFLOAT_ABI} ${GARBAGE_COLLECT_SECTIONS} ${CPP_EXCEPTIONS} ${CPP_RTTI} ${CPP_ATEXIT} ${NORDIC_FLAGS}")
 set(CMAKE_ASM_FLAGS "${CMAKE_C_FLAGS} -x assembler-with-cpp")
 
 set(CMAKE_C_COMPILER ${TRIPLE}-gcc)

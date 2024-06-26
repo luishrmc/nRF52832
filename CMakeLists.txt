@@ -85,7 +85,8 @@ message(STATUS "Using CPM")
 include(CPM)
 
 # ------------------------------------ PROJECT DIRECTORIES  ----------------------------------- #
-add_git_submodule(lib/${MCU}/hal-driver)
+add_git_submodule(lib/CMSIS-6)
+add_git_submodule(lib/${MCU}/nrfx)
 add_subdirectory(config)
 add_subdirectory(app)
 add_subdirectory(lib)

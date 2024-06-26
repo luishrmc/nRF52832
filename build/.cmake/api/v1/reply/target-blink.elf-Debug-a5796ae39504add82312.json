@@ -1,0 +1,1756 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "app/blink.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_set_warnings",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"app/CMakeLists.txt",
+			"cmake/Warnings.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m4 -std=gnu11 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -mlittle-endian -munaligned-access -mtp=soft -g3 -std=c17"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wlogical-op"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOARD_DW1001_DEV"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BSP_SIMPLE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CONFIG_GPIO_AS_PINRESET"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FLOAT_ABI_HARD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF52"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF52832_XXAA"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF52_PAN_74"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF_SD_BLE_API_VERSION=7"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "S132"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SOFTDEVICE_PRESENT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__ARM_ARCH_7EM__"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__ARM_ARCH_FPV4_SP_D16__"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__GNU_LINKER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__HEAP_SIZE__=2048"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__SES_ARM"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__SES_VERSION=81001"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__SIZEOF_WCHAR_T=4"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__STACKSIZE__=2048"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/app/inc/controllers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/app/inc/services"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/app/inc/drivers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/build/config_files/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/config/sdk_config.h"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/prs"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/hal"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/haly"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/mdk"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/mbr/headers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/s132/headers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/s132/headers/nrf52"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic_fifo"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic_flags"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/balloc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/block_dev"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/bootloader"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/bsp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/button"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/cli"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/crc16"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/crc32"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/crypto"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/csense"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/csense_drv"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/delay"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ecc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_section_vars"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_task_manager"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/fds"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/fifo"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/fstorage"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/gfx"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/gpiote"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/hardfault"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/hci"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/led_softblink"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/NORDIC_LIBSuarte"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/low_power_pwm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/mem_manager"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/memobj"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/mpu"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/mutex"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/pwm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/pwr_mgmt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/queue"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ringbuf"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/scheduler"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sdcard"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sensorsim"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sha256"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/simple_timer"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/slip"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sortlist"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/spi_mngr"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/stack_guard"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/stack_info"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/strerror"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/svc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/timer"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/twi_mngr"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/twi_sensor"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/uart"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/usbd"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/../CMSIS-6/CMSIS/Core/Include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m4 -std=gnu11 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -mlittle-endian -munaligned-access -mtp=soft -x assembler-with-cpp -g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wlogical-op"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOARD_DW1001_DEV"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "BSP_SIMPLE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "CONFIG_GPIO_AS_PINRESET"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FLOAT_ABI_HARD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF52"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF52832_XXAA"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF52_PAN_74"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NRF_SD_BLE_API_VERSION=7"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "S132"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SOFTDEVICE_PRESENT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__ARM_ARCH_7EM__"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__ARM_ARCH_FPV4_SP_D16__"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__GNU_LINKER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__HEAP_SIZE__=2048"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__SES_ARM"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__SES_VERSION=81001"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__SIZEOF_WCHAR_T=4"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "__STACKSIZE__=2048"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/app/inc/controllers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/app/inc/services"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/app/inc/drivers"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/lumac/learning/nordic/nRF52832/build/config_files/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/config/sdk_config.h"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/prs"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/hal"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/haly"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/mdk"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/mbr/headers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/s132/headers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/s132/headers/nrf52"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic_fifo"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic_flags"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/balloc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/block_dev"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/bootloader"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/bsp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/button"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/cli"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/crc16"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/crc32"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/crypto"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/csense"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/csense_drv"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/delay"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ecc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_section_vars"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_task_manager"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/fds"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/fifo"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/fstorage"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/gfx"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/gpiote"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/hardfault"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/hci"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/led_softblink"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/NORDIC_LIBSuarte"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/low_power_pwm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/mem_manager"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/memobj"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/mpu"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/mutex"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/pwm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/pwr_mgmt"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/queue"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ringbuf"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/scheduler"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sdcard"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sensorsim"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sha256"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/simple_timer"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/slip"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/sortlist"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/spi_mngr"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/stack_guard"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/stack_info"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/strerror"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/svc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/timer"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/twi_mngr"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/twi_sensor"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/uart"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/usbd"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/../CMSIS-6/CMSIS/Core/Include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "NRF52832_XXAA_HAL::@8b28abaf4bb71822a4cf"
+		}
+	],
+	"id" : "blink.elf::@5f5a17c01335469806cb",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m4 -std=gnu11 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -mlittle-endian -munaligned-access -mtp=soft -g3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-T/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/mdk/nrf52832_xxaa.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--specs=nano.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-Map=blink.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--start-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lgcc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--end-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "blink.elf",
+	"nameOnDisk" : "blink.elf",
+	"paths" : 
+	{
+		"build" : "app",
+		"source" : "app"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "app/src/controllers/mainController.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "lib/NRF52832_XXAA/nrfx/mdk/gcc_startup_nrf52.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/mdk/system_nrf52.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/soc/nrfx_atomic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/softdevice/common/nrf_sdh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/util/app_error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/util/app_error_weak.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/util/app_util_platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/util/nrf_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

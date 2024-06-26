@@ -12,23 +12,25 @@ Purpose : Generic application start
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "lib/NRF52832_XXAA/libraries/delay/nrf_delay.h"
 
 /*********************************************************************
-*
-*       main()
-*
-*  Function description
-*   Application entry point.
-*/
-int main(void) {
-  int i;
-
-  for (i = 0; i < 100; i++) {
-    printf("Hello World %d!\n", i);
+ *
+ *       main()
+ *
+ *  Function description
+ *   Application entry point.
+ */
+int main(void)
+{
+  /* Toggle LEDs. */
+  while (true)
+  {
+    for (int i = 0; i < 10; i++)
+    {
+      nrf_delay_ms(500);
+    }
   }
-  do {
-    i++;
-  } while (1);
 }
 
 /*************************** End of file ****************************/
