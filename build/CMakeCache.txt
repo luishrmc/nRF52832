@@ -27,7 +27,7 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/arm-none-eabi-addr2line
 CMAKE_AR:FILEPATH=/usr/bin/arm-none-eabi-ar
 
 //ASM compiler
-CMAKE_ASM_COMPILER:STRING=/usr/bin/arm-none-eabi-gcc
+CMAKE_ASM_COMPILER:FILEPATH=/usr/bin/arm-none-eabi-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -122,6 +122,9 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+
+//No help, variable specified on the command line.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles/pkgRedirects

@@ -983,7 +983,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 app/CMakeFiles/blink.elf.dir/all: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/all
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/blink.elf.dir/build.make app/CMakeFiles/blink.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/blink.elf.dir/build.make app/CMakeFiles/blink.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target blink.elf"
 .PHONY : app/CMakeFiles/blink.elf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1009,12 +1009,12 @@ app/CMakeFiles/blink.elf.dir/clean:
 lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/build.make lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/build.make lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41 "Built target NRF52832_XXAA_HAL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target NRF52832_XXAA_HAL"
 .PHONY : lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/all
 
 # Build rule for subdir invocation for target.
 lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumac/learning/nordic/nRF52832/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumac/learning/nordic/nRF52832/build/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumac/learning/nordic/nRF52832/build/CMakeFiles 0
 .PHONY : lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/rule
@@ -1062,7 +1062,7 @@ tests/CMakeFiles/TEST_FOO.dir/all: _deps/unity-build/CMakeFiles/unity.dir/all
 tests/CMakeFiles/TEST_FOO.dir/all: tests/prototype/CMakeFiles/PROTOTYPES.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TEST_FOO.dir/build.make tests/CMakeFiles/TEST_FOO.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TEST_FOO.dir/build.make tests/CMakeFiles/TEST_FOO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=43,44 "Built target TEST_FOO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=47 "Built target TEST_FOO"
 .PHONY : tests/CMakeFiles/TEST_FOO.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1114,12 +1114,12 @@ _deps/unity-build/CMakeFiles/unity.dir/clean:
 tests/prototype/CMakeFiles/PROTOTYPES.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/prototype/CMakeFiles/PROTOTYPES.dir/build.make tests/prototype/CMakeFiles/PROTOTYPES.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/prototype/CMakeFiles/PROTOTYPES.dir/build.make tests/prototype/CMakeFiles/PROTOTYPES.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=42 "Built target PROTOTYPES"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=45,46 "Built target PROTOTYPES"
 .PHONY : tests/prototype/CMakeFiles/PROTOTYPES.dir/all
 
 # Build rule for subdir invocation for target.
 tests/prototype/CMakeFiles/PROTOTYPES.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumac/learning/nordic/nRF52832/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumac/learning/nordic/nRF52832/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/prototype/CMakeFiles/PROTOTYPES.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lumac/learning/nordic/nRF52832/build/CMakeFiles 0
 .PHONY : tests/prototype/CMakeFiles/PROTOTYPES.dir/rule

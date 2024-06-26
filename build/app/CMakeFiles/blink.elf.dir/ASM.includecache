@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/mdk/gcc_startup_nrf52.S
+startup_config.h
+/home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/mdk/startup_config.h
+

@@ -1,0 +1,7 @@
+device NRF52832_XXAA
+si SWD
+speed 4000
+autoconnect 1 
+NoGui 1
+loadfile ../../build/app/blink.elf reset
+Exit

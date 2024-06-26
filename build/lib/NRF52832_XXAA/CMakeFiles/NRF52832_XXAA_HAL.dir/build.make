@@ -769,132 +769,6 @@ lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/ipct/nr
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.s"
 	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.s
 
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.s
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/flags.make
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o -MF CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o.d -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c > CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.i
-
-lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c -o CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.s
-
 # Object files for target NRF52832_XXAA_HAL
 NRF52832_XXAA_HAL_OBJECTS = \
 "CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/drivers/src/nrfx_adc.c.o" \
@@ -946,16 +820,7 @@ NRF52832_XXAA_HAL_OBJECTS = \
 "CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/helpers/nrfx_ram_ctrl.c.o" \
 "CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o" \
 "CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o" \
-"CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o"
+"CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o"
 
 # External object files for target NRF52832_XXAA_HAL
 NRF52832_XXAA_HAL_EXTERNAL_OBJECTS =
@@ -1010,18 +875,9 @@ lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_
 lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o
 lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o
 lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_clock.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_power.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_ppi.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_rng.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spi.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_spis.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_swi.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_twi.c.o
-lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/integration/legacy/nrf_drv_uart.c.o
 lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/build.make
 lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a: lib/NRF52832_XXAA/CMakeFiles/NRF52832_XXAA_HAL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking C static library libNRF52832_XXAA_HAL.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking C static library libNRF52832_XXAA_HAL.a"
 	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && $(CMAKE_COMMAND) -P CMakeFiles/NRF52832_XXAA_HAL.dir/cmake_clean_target.cmake
 	cd /home/lumac/learning/nordic/nRF52832/build/lib/NRF52832_XXAA && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NRF52832_XXAA_HAL.dir/link.txt --verbose=$(VERBOSE)
 

@@ -1,0 +1,7 @@
+device BLUENRG-248
+si SWD
+speed 4000
+autoconnect 1 
+NoGui 1
+Erase 0x10040000 0x1007F000 reset
+Exit

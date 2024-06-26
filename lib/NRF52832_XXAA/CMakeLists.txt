@@ -60,15 +60,15 @@ target_sources(${HAL} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c
     ${CMAKE_CURRENT_SOURCE_DIR}/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c
 
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_clock.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_power.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_ppi.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_rng.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_spi.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_spis.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_swi.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_twi.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_uart.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_clock.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_power.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_ppi.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_rng.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_spi.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_spis.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_swi.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_twi.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy/nrf_drv_uart.c
 )
 
 target_include_directories(${HAL} PUBLIC
@@ -97,7 +97,7 @@ target_include_directories(${HAL} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/${SOFT_DEV}/s132/headers/nrf52
 
     ${CMAKE_CURRENT_SOURCE_DIR}/${INT}
-    ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy
+    # ${CMAKE_CURRENT_SOURCE_DIR}/${INT}/legacy
 
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/atomic
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/atomic_fifo
@@ -127,6 +127,7 @@ target_include_directories(${HAL} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/led_softblink
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/NORDIC_LIBSuarte
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/log
+    ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/log/src
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/low_power_pwm
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/mem_manager
     ${CMAKE_CURRENT_SOURCE_DIR}/${NORDIC_LIBS}/memobj

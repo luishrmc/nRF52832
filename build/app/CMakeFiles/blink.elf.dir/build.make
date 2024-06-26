@@ -138,10 +138,24 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh.c.s"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh.c.s
 
+app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o: app/CMakeFiles/blink.elf.dir/flags.make
+app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c
+app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o"
+	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c
+
+app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.i"
+	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.i
+
+app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.s"
+	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.s
+
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.i: cmake_force
@@ -152,192 +166,10 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.s"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.s
 
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_weak.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_weak.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_weak.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_error_weak.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_util_platform.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_util_platform.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_util_platform.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/app_util_platform.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/nrf_assert.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/nrf_assert.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/nrf_assert.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/util/nrf_assert.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.s
-
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.i: cmake_force
@@ -351,7 +183,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.i: cmake_force
@@ -365,7 +197,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboar
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.i: cmake_force
@@ -379,7 +211,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.i: cmake_force
@@ -393,7 +225,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_comp.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.i: cmake_force
@@ -407,7 +239,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_dppi.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.i: cmake_force
@@ -421,7 +253,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_egu.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c.i: cmake_force
@@ -435,7 +267,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_gpiote.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.i: cmake_force
@@ -449,7 +281,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_grtc.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.i: cmake_force
@@ -463,7 +295,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_i2s.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.i: cmake_force
@@ -477,7 +309,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ipc.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c.i: cmake_force
@@ -491,7 +323,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_lpcomp.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.i: cmake_force
@@ -505,7 +337,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nfct.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.i: cmake_force
@@ -519,7 +351,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_nvmc.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.i: cmake_force
@@ -533,7 +365,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pdm.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.i: cmake_force
@@ -547,7 +379,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_power.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.i: cmake_force
@@ -561,7 +393,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_ppi.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.i: cmake_force
@@ -575,7 +407,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_pwm.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.i: cmake_force
@@ -589,7 +421,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qdec.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.i: cmake_force
@@ -603,7 +435,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_qspi.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.i: cmake_force
@@ -617,7 +449,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rng.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.i: cmake_force
@@ -631,7 +463,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rramc.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.i: cmake_force
@@ -645,7 +477,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_rtc.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.i: cmake_force
@@ -659,7 +491,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_saadc.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.i: cmake_force
@@ -673,7 +505,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spi.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.i: cmake_force
@@ -687,7 +519,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spim.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.i: cmake_force
@@ -701,7 +533,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_spis.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.c.i: cmake_force
@@ -715,7 +547,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_systick.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.i: cmake_force
@@ -729,7 +561,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_tbm.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.i: cmake_force
@@ -743,7 +575,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_temp.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.i: cmake_force
@@ -757,7 +589,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_timer.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.i: cmake_force
@@ -771,7 +603,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.i: cmake_force
@@ -785,7 +617,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twim.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.i: cmake_force
@@ -799,7 +631,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twis.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim.c.i: cmake_force
@@ -813,7 +645,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_twi_twim
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.i: cmake_force
@@ -827,7 +659,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uart.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.i: cmake_force
@@ -841,7 +673,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_uarte.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.i: cmake_force
@@ -855,7 +687,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbd.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c.i: cmake_force
@@ -869,7 +701,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_usbreg.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.i: cmake_force
@@ -883,7 +715,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_vevif.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.i: cmake_force
@@ -897,7 +729,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_wdt.c.s:
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.c.i: cmake_force
@@ -911,7 +743,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/prs/nrfx_prs.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_allocator.c.i: cmake_force
@@ -925,7 +757,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_flag32_alloc
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.i: cmake_force
@@ -939,7 +771,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi.c.
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib.c.i: cmake_force
@@ -953,7 +785,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_pp
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_ppib_lumos.c.i: cmake_force
@@ -967,7 +799,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_dppi_pp
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.i: cmake_force
@@ -981,7 +813,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_gppi_ppi.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.i: cmake_force
@@ -995,7 +827,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.s
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.i: cmake_force
@@ -1009,7 +841,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.i: cmake_force
@@ -1023,7 +855,7 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_pp
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o: app/CMakeFiles/blink.elf.dir/flags.make
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c
 
 app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.i: cmake_force
@@ -1034,132 +866,6 @@ app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.s"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.s
 
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.s
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o: app/CMakeFiles/blink.elf.dir/flags.make
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o: /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o: app/CMakeFiles/blink.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && ccache /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o -MF CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o.d -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o -c /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.i"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c > CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.i
-
-app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.s"
-	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lumac/learning/nordic/nRF52832/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c -o CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.s
-
 # Object files for target blink.elf
 blink_elf_OBJECTS = \
 "CMakeFiles/blink.elf.dir/src/controllers/mainController.c.o" \
@@ -1167,20 +873,8 @@ blink_elf_OBJECTS = \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/mdk/system_nrf52.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/nrfx_atomic.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh.c.o" \
+"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o" \
@@ -1230,16 +924,7 @@ blink_elf_OBJECTS = \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nrfx_ram_ctrl.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o" \
 "CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o" \
-"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o"
+"CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o"
 
 # External object files for target blink.elf
 blink_elf_EXTERNAL_OBJECTS =
@@ -1249,20 +934,8 @@ app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/mdk/gcc_st
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/mdk/system_nrf52.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/nrfx_atomic.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh.c.o
+app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_ble.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/softdevice/common/nrf_sdh_soc.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_frontend.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/log/src/nrf_log_str_formatter.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_handler_gcc.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_error_weak.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/app_util_platform.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/util/nrf_assert.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/atomic/nrf_atomic.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/balloc/nrf_balloc.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/memobj/nrf_memobj.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/ringbuf/nrf_ringbuf.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/experimental_section_vars/nrf_section_iter.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/libraries/strerror/nrf_strerror.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_adc.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_bellboard.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/drivers/src/nrfx_clock.c.o
@@ -1313,19 +986,10 @@ app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/helpers/nr
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/apb/nrfx_interconnect_apb.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/dppic_ppib/nrfx_interconnect_dppic_ppib.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/nrfx/soc/interconnect/ipct/nrfx_interconnect_ipct.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_clock.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_power.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_ppi.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_rng.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spi.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_spis.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_swi.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_twi.c.o
-app/blink.elf: app/CMakeFiles/blink.elf.dir/__/lib/NRF52832_XXAA/integration/legacy/nrf_drv_uart.c.o
 app/blink.elf: app/CMakeFiles/blink.elf.dir/build.make
 app/blink.elf: lib/NRF52832_XXAA/libNRF52832_XXAA_HAL.a
 app/blink.elf: app/CMakeFiles/blink.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking C executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lumac/learning/nordic/nRF52832/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking C executable blink.elf"
 	cd /home/lumac/learning/nordic/nRF52832/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.elf.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/lumac/learning/nordic/nRF52832/build/app && /usr/bin/arm-none-eabi-objcopy -O binary blink.elf blink.bin
 

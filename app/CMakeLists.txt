@@ -15,22 +15,8 @@ target_sources(${EXE_NAME} PRIVATE
     ${PROJECT_SOURCE_DIR}/${NRFX}/soc/nrfx_atomic.c
 
     ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh.c
-    # ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh_ble.c
+    ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh_ble.c
     ${PROJECT_SOURCE_DIR}/${SFDEV}/nrf_sdh_soc.c
-
-    ${PROJECT_SOURCE_DIR}/${LIB}/log/src/nrf_log_frontend.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/log/src/nrf_log_str_formatter.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/util/app_error.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/util/app_error_handler_gcc.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/util/app_error_weak.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/util/app_util_platform.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/util/nrf_assert.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/atomic/nrf_atomic.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/balloc/nrf_balloc.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/memobj/nrf_memobj.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/ringbuf/nrf_ringbuf.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/experimental_section_vars/nrf_section_iter.c
-    ${PROJECT_SOURCE_DIR}/${LIB}/strerror/nrf_strerror.c
 )
 
 target_include_directories(${EXE_NAME} PRIVATE
@@ -42,6 +28,7 @@ target_include_directories(${EXE_NAME} PRIVATE
 
 target_link_options(${EXE_NAME} PRIVATE
     -T${PROJECT_SOURCE_DIR}/${NRFX}/${LINKER_SCRIPT}
+    -L${PROJECT_SOURCE_DIR}/${NRFX}/mdk
     ${RUNTIME_LIBRARY}
     ${RUNTIME_LIBRARY_SYSCALLS}
     -Wl,--print-memory-usage

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-arm-none-eabi-g++"
+	BuildStamp="20240626-1353-Experimental"
+	Name="ubuntu"
+	Generator="ctest-3.29.3"
+	CompilerName="/opt/gcc-arm-none-eabi/bin/arm-none-eabi-g++"
+	CompilerVersion="13.2.1"
+	OSName="Linux"
+	Hostname="ubuntu"
+	OSRelease="6.5.0-41-generic"
+	OSVersion="#41~22.04.2-Ubuntu SMP PREEMPT_DYNAMIC Mon Jun  3 11:32:55 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15760"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4200"
+	>
+	<Testing>
+		<StartDateTime>Jun 26 10:54 -03</StartDateTime>
+		<StartTestTime>1719410052</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 26 10:54 -03</EndDateTime>
+		<EndTestTime>1719410052</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

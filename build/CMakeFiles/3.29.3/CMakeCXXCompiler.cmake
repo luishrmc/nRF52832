@@ -85,7 +85,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/opt/gcc-arm-none-eabi/arm-none-eabi/include/c++/13.2.1;/opt/gcc-arm-none-eabi/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v7e-m+fp/hard;/opt/gcc-arm-none-eabi/arm-none-eabi/include/c++/13.2.1/backward;/opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include;/opt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/13.2.1/include-fixed;/opt/gcc-arm-none-eabi/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

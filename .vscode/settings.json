@@ -63,6 +63,8 @@
         "beaconcontroller.h": "c",
         "prototype.h": "c",
         "stm32f1xx.h": "c",
-        "nrf_delay.h": "c"
+        "nrf_delay.h": "c",
+        "sdk_common.h": "c",
+        "nrf_gpio.h": "c"
     },
 }
