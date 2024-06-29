@@ -73,7 +73,7 @@ target_sources(${HAL} PUBLIC
 
 target_include_directories(${HAL} PUBLIC
 
-    ${PROJECT_SOURCE_DIR}/config/sdk_config.h
+    ${PROJECT_SOURCE_DIR}/config
 
     ${CMAKE_CURRENT_SOURCE_DIR}/${HAL_DRV}
     ${CMAKE_CURRENT_SOURCE_DIR}/${HAL_DRV}/include
